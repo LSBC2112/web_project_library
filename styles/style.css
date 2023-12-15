@@ -264,7 +264,7 @@
 
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
-.cards {
+.staff__cards {
   margin-top: 68px;
   max-width: 760px;
   display: flex;
@@ -304,7 +304,7 @@
   line-height: 24px;
 }
 
-.first__text {
+.card__text_first_text {
   font-weight: 700;
 }
 
