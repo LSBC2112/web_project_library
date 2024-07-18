@@ -25,13 +25,13 @@
 
 .nav__logo {
   height: 80px;
-  width: 57px;
+  width: 58px;
 }
 
 .nav__links {
   display: flex;
   column-gap: 20px;
-  list-style: none;
+  list-style-type: none;
   margin: 8px 0 0;
   padding: 0;
 }
@@ -237,6 +237,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -250,6 +251,7 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
+  font-weight: 400;
   margin: 0 0 24px;
   color: #fff;
 }
@@ -266,11 +268,15 @@
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
 .staff__cards {
-  margin-top: 68px;
   max-width: 760px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
+  list-style-type: none;
+  margin-top: 68px;
+  padding-left: 0;
 }
 
 .card {
@@ -310,7 +316,7 @@
 }
 
 .card__footer {
-  margin: 0;
+  margin: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
